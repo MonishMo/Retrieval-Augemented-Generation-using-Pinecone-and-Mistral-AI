@@ -1,0 +1,12 @@
+langchain
+transformers
+sentence-transformers
+faiss-cpu
+unstructured
+mistralai
+pinecone-client
+flask
+langchain_pinecone
+langchain_openai
+python-dotenv
+langchain_mistralai

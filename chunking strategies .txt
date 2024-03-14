@@ -1,0 +1,25 @@
+chunking strategies 
+	small chunk like 128 is too granular
+	1024 is too many tokens
+
+
+lanchain - llamaindex
+
+character level chuncking
+	charactertext splitter - based on char - splits without meaning
+	recursivetext splitter - split based on splitter('\n\n','\n') - para, sentence, word, char
+	token based splitter
+Document chunking
+	markdown
+	prog lang specific
+
+semantic chuncking
+	based on different context using llms 
+chunk pdf files
+	unstructured.io - doing good job in detecting text, tables .....
+
+
+
+Evaluation
+	huggingface chunk visualizer
+	llamaindex wrapper for evaluation - llm based
